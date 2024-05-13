@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+ 
+    padding: 4rem;
+    margin: 0rem 3rem;
+}
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 4rem;
+    background-color: grey;
+    /* align-items: center; */
+
+   
+}
+.LoginPage input{
+    margin-bottom: 2rem;
+}
+.Loginbutton{
+width: 6rem;
+text-align: center;
+color: white;
+background-color: rgb(45, 44, 44);
+border: none;
+padding: .5rem;
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(29, 37, 44);
+}
+.Loginbutton:hover{
+color: rgb(45, 44, 44);
+background-color: white;
+}
+nav{
+
+ margin-top: 3rem;
+ margin-left: 2rem;
+font-size: 1.5rem;
+
+}
