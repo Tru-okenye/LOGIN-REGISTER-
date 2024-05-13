@@ -22,7 +22,7 @@ const Register = () => {
       if (response.ok) {
    
         // Redirect to the login page
-        // navigate('/login');
+        navigate('/login');
         alert('Registration successful. You can now login.');
       } else {
         // Registration failed, show an error message
